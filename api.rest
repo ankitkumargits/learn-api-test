@@ -1,0 +1,21 @@
+###
+GET http://localhost:5000/api/ 
+
+###
+
+POST http://localhost:5000/api/
+Content-Type: application/json
+
+{
+    "name":"Samsung",
+    "desc":"SmartPhone",
+    "price":25000
+}
+
+###
+GET http://localhost:5000/api/633f0257a97dc4cb299dfd85
+
+###
+DELETE  http://localhost:5000/api/633f0257a97dc4cb299dfd85
+
+
